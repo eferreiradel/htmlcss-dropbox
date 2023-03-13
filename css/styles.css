@@ -1,0 +1,138 @@
+:root {
+    --brand__color--1: #0061FF;
+
+
+}
+* {
+    font-size: 16px;
+    border: 1px solid red;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+section {
+    margin-top: 10em;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    width: 60%;
+}
+.button__standard {
+    border: none;
+    background-color: var(--brand__color--1);
+    color: white
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0em 1em;
+    max-width: 1920px;
+    width: 100%;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav a , button {
+    padding: 0.5em 1em;
+    margin: 1em 2em;
+    
+}
+
+
+
+
+
+/* main__header */
+#main__header {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+}
+
+#main__header .content__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 65%;
+    margin-top: 6.5rem;
+}
+#main__header .flex__container {
+    display: flex;
+}
+#main__header .flex__item--1 {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-grow: 1;
+    width: 50%;
+    height:400px;
+}
+#main__header .flex__item--2 {
+    flex-grow: 1;
+    background-color: aliceblue;
+    width: 50%;
+    height:400px;
+}
+#main__header img {
+    width: 140%;
+}
+
+
+
+
+
+/* plan */
+#plan {
+    margin-top: 10rem;
+
+}
+#plan .content__wrapper {
+    display: flex;
+    flex-direction: column;
+}  ßß
+#plan h2 {
+    margin-bottom: 2em;
+}
+#plan fieldset {
+    margin-bottom: 2em;
+}
+#plan .content__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#plan .flex__item {
+    width: 30%;
+    height: 500px;
+}
+
+
+
+
+
+/* team */
+#team {
+
+}
+#team .content__wrapper {
+    display: flex;
+    flex-direction: row;
+}ßß
+
