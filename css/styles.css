@@ -31,7 +31,7 @@ h2 {
 }
 h3 {
   font-size: 1.3rem;
-  margin: 0;
+  margin: 0em 0em 1em 0em;
 }
 .small {
   font-size: smaller;
@@ -40,7 +40,7 @@ h3 {
 }
 p {
   color: rgb(45, 45, 45);
-  line-height: 2em;
+  line-height: 1.5em;
 }
 a {
   text-decoration: none;
@@ -61,7 +61,7 @@ ul {
 main {
   display: flex;
   flex-direction: column;
-  gap: 10em;
+  gap: 8em;
 }
 section {
   display: flex;
@@ -74,7 +74,6 @@ fieldset {
   border: none;
   align-items: center;
   gap: 2em;
-  margin: 2em 0em 5em 0;
 }
 input[type="radio"] {
   margin-right: 0.5em;
@@ -114,7 +113,6 @@ p {
   flex-direction: column;
 }
 
-/* *************************** */
 /* ******NAV__BAR****** */
 #navBar {
   z-index: +1;
@@ -134,7 +132,6 @@ p {
   align-items: center;
   justify-content: space-around;
 }
-/* *************************** */
 /* ******SECTION__HEADER****** */
 
 #section__header {
@@ -167,11 +164,10 @@ p {
 #section__header button {
   margin-bottom: 1em;
 }
-/* *************************** */
+
 /* ******SECTION__PLANS****** */
 
 #section__plans {
-  background-color: ÷ white;
 }
 #section__plans .content__wraper {
   width: 60%;
@@ -183,7 +179,6 @@ p {
   justify-content: space-between;
 }
 .card {
-  border-radius: 10px;
   border: 2px solid rgb(227, 227, 227);
   flex-direction: column;
   width: 30%;
@@ -232,8 +227,7 @@ p {
 }
 
 #card__footer {
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin-top: 2em;
   width: 100%;
 }
 #card__footer .card--section {
@@ -242,13 +236,54 @@ p {
   margin-bottom: 1em;
 }
 #card__footer .sect1 {
-  width: 70%;
+  width: 60%;
 }
 #card__footer .sect2 {
-  width: 30%;
+  margin-left: 2em;
+  width: 40%;
 }
-/* *************************** */
-/* ******SECTION__CONTACTS****** */
-
+/* ******CONTACTS****** */
 #contact {
+}
+#contact .content__wraper {
+  width: 60%;
+}
+#contact .flex__item--1 {
+  background-color: aliceblue;
+  width: 60%;
+}
+#contact .flex__item--2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em;
+}
+#contact img {
+  width: 100%;
+}
+#contact button {
+  color: dimgray;
+  background-color: white;
+  border: 2px solid dimgray;
+  border-radius: none;
+}
+/* operations */
+#operations {
+}
+#operations .content__wraper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+#operations .flex__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#operations .card {
+  border: none;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0em 2em 0em 2em;
 }
