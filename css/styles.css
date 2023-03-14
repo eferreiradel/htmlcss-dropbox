@@ -42,6 +42,7 @@ a {
     color: black;
 }
 button {
+    border-radius: 5px;
     background-color: var(--brand__color--1);
     color: white;
     padding: 0.5em 1.5em;
@@ -62,7 +63,7 @@ fieldset{
     border: none;
     align-items: center;
     gap: 2em;
-    margin: 5em 0em 5em 0;
+    margin: 4em 0em 4em 0;
 }
 
 i {
@@ -75,14 +76,16 @@ p {
     color: var(--brand__color--1);
 }
 
-input[type=radio] {
-    transform: scale(1.4);
-    
-}
-
 .price {
     font-weight: bolder;
 }
+
+
+
+
+
+
+
 
 
 #navBar {
@@ -115,6 +118,8 @@ input[type=radio] {
 
 
 
+
+
 #section__header {
     padding-top: 5rem;
     background-color: var(--brand__color--2);
@@ -136,7 +141,6 @@ input[type=radio] {
     flex-direction: column;
     gap: 2em;
     width: 50%;
-    /* background-color: #0061FF; */
 }
 #section__header .flex__item--2{
     width: 50%;
@@ -150,11 +154,10 @@ input[type=radio] {
 
 
 
+
+
 #section__plans{
     background-color: white;
-
-}
-#section__plans .content__wrapper{
 
 }
 
@@ -163,7 +166,8 @@ input[type=radio] {
     flex-direction: row;
     justify-content: space-between;
 }
-#section__plans .card {
+.card {
+    border-radius: 10px;
     border:  2px solid rgb(223, 223, 223);
     flex-direction: column;
     width: 30%;
