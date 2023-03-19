@@ -1,643 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="navBar">
-            <nav>
-                <img src="./img/logo-small.png">
-                <a href="index.html">
-                    Perchè Dropbox
-                </a>
-                <a href="index.html">
-                    Funzioni
-                </a>
-                <a href="index.html">
-                    Piani e prezzi
-                </a>
-            </nav>
-            <nav>
-                <a href="index.html">
-                    Supporto
-                </a>
-                <a href="index.html">
-                    Contatta l'ufficio vendite
-                </a>
-                <a href="index.html">
-                    Accedi
-                </a>
-                <a href="index.html">
-                    <button>Inizia</button>
-                </a>
-            </nav>
-        </div>
+      <div id="navBar">
+          <nav>
+            
+          <a href="index.html"> Perchè Dropbox </a>
+          <a href="index.html"> Funzioni </a>
+          <a href="index.html"> Piani e prezzi </a>
+        </nav>
+        <nav>
+          <a href="index.html"> Supporto </a>
+          <a href="index.html"> Contatta l'ufficio vendite </a>
+          <a href="index.html"> Accedi </a>
+          <a href="index.html">
+            <button class="btn--secondary">Inizia</button>
+          </a>
+        </nav>
+      </div>
     </header>
     <main>
-        <!-- SECTION__HEADER -->
-        <section id="section__header">
-          <section id="section__header">
-            <div class="content__wraper">
-                <h1>
-                    Tutto quello che ti serve per il lavoro, in un unico posto
-                </h1>
+      <!-- jumbo -->
+      <section id="jumbo">
+            <div class="content__wrapper">
+                <h1>Tutto quello che ti serve per il lavoro, in un unico posto</h1>
                 <div class="flex__container">
                     <div class="flex__item--1">
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content
-                            It is a long established fact that a reader will be distracted by the readable content
-                        </p>
-                        <div>
-                            <a href="index.html">
-                                <button>
-                                    Inizia la tua prova gratis
-                                </button>
-                            </a>
-                            <p>Annulla in qualsiasi momento</p>
-                        </div>
-                        <i class="fa-sharp fa-solid fa-arrow-down"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Veritatis rem, dignissimos minus incidunt, error officia aliquam
+                        blanditiis assumenda unde maiores voluptatum exercitationem
+                        numquam dolorum doloremque illum libero, hic cumque fugiat.
+                    </p>
+                    <a href="index.hmtml">
+                        <button class="btn--primary">Inizia la tua prova gratis</button>
+                    </a>
                     </div>
                     <div class="flex__item--2">
-                        <img src="/img/jumbo.png">
+                    <img src="./img/jumbo.png" alt="" />
                     </div>
-                    <div></div>
                 </div>
             </div>
-          </section>
-        </section>
-<!-- SECTION__PLANS -->
-        <section id="section__plans">
-            <div class="content__wraper">
-                <h2>Trova il piano bussisness <br> che fa per te </h2>
-                <fieldset>
-                    <div class="input__group">
-                        <input type="radio" name="radio">
-                        <label for="radio">
-                            Fatturazione mensile
-                        </label>
+      </section>
+      <!-- plans -->
+      <section id="plans">
+        <div class="content__wrapper">
+          <h3>Trova il piano bussisness che fa per te</h3>
+          <form action="index.html">
+            <fieldset>
+              <!-- radio check -->
+              <input type="radio" name="radio" id="radio--1" />
+              <label for="radio--1">Fatturazione mensile</label>
+              <input type="radio" name="radio" id="radio--2" />
+              <label for="radio--2">Fatturazione annuale</label>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <section id="cards">
+            <div class="content__wrapper">
+            <div class="flxRow justify--spaceBetw">
+                <!-- card -->
+                <div class="card">
+                    <div class="card__header">
+                      <span>Singolo</span>
                     </div>
-                    <div class="input__group">
-                        <input type="radio" name="radio">
-                        <label for="radio">
-                            Fatturazione annuale
-                        </label>
-                    </div>
-                </fieldset>
-                <!-- CARD__1 -->
-                <div class="flex__container">
-                    <div class="card">
-                        <div class="card--header card--style">
-                            <i class="fa-solid fa-user"></i>
-                            <p>
-                                Singolo
-                            </p>
-                        </div>
-                        <div class="card--body card--style">
-                            <div class="card--section">
-                                <h3>Professional</h3>
-                                <p class="price">
-                                    $12
-                                </p>
-                                <p>
-                                    /mese
-                                </p>
-                            </div>
-                            <div class="card--section">
-                                <p>
-                                    <i class="fa-solid fa-user">
-                                    </i>
-                                    1 Utente
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-folder"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-sharp fa-solid fa-share-nodes"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                            </div>
-                            <div class="card--section">
-                                <a href="index.html">
-                                    <button>
-                                        Prova gratis per 30 giorni
-                                    </button>
-                                </a>
-
-                                <p>Oppure <a href="index.html">acquista ora</a></p>
-                            </div>
-                            <div class="divider"></div>
-
-                            <div class="card--section">
-                                <h4>
-                                    Punti salienti del piano
-                                </h4>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-<!-- CARD__2--->
-                    <div class="card">
-                        <div class="card--header">
-                            <i class="fa-solid fa-user"></i>
-                            <p>
-                                Advanced
-                            </p>
-                        </div>
-                        <div class="card--body card--style">
-                            <div class="card--section">
-                                <h3>
-                                    Advanced
-                                </h3>
-                                <p class="price">
-                                    $18
-                                </p>
-                                <p>
-                                    /mese
-                                </p>
-                            </div>
-                            <div class="card--section">
-                                <p>
-                                    <i class="fa-solid fa-user">
-                                    </i>
-                                    3 o più Utenti
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-folder"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-sharp fa-solid fa-share-nodes"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                            </div>
-                            <div class="card--section">
-                                <a href="index.html">
-                                    <button>
-                                        Prova gratis per 30 giorni
-                                    </button>
-                                </a>
-                                <p>Oppure <a href="index.html">acquista ora</a></p>
-                                <div class="divider"></div>
-                            </div>
-                            <div class="card--section">
-                                <h4>
-                                    Punti salienti del piano
-                                </h4>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-<!-- CARD__3 -->
-                    <div class="card">
-                        <div class="card--header">
-                            <i class="fa-solid fa-user"></i>
-                            <p>
-                                Enterprise
-                            </p>
-                        </div>
-                        <div class="card--body card--style">
-                            <div class="card--section">
-                                <h3>
-                                    Enterprise
-                                </h3>
-                                <p class="price">
-                                    Contattaci
-                                </p>
-                                <p>
-                                    /mese
-                                </p>
-                            </div>
-                            <div class="card--section">
-                                <p>
-                                    <i class="fa-solid fa-user">
-                                    </i>
-                                    10 o più Utenti
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-folder"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-sharp fa-solid fa-share-nodes"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                            </div>
-                            <div class="card--section">
-                                <a href="index.html">
-                                    <button>
-                                        Prova gratis per 30 giorni
-                                    </button>
-                                </a>
-                                <p>
-                                    Oppure 
-                                    <a href="index.html">
-                                        acquista ora
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="divider"></div>
-                            <div class="card--section">
-                                <h4>
-                                    Punti salienti del piano
-                                </h4>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-check"></i>
-                                    It is a long established fact that a reader will be distracted by the readable content
-                                </p>
-                            </div>
-                        </div>
+                    <div class="card__body">
+                      <div class="card__section">
+                        <h4>Professional</h4>
+                        <span class="bolder"> $12 </span>
+                        <span> /mese </span>
+                      </div>
+                      <div class="card__section">
+                          <span> 1 Utente </span>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, dignissimos iste quae rerum, dicta provident corporis libero perspiciatis, reiciendis fugiat ullam? Enim odio amet fugiat dolore sit excepturi veniam.
+                          </p>
+                          <a href="index.html">
+                              <button class="btn--primary">
+                                  Prova gratis 30 giorni
+                              </button>
+                          </a>
+                          <span>Oppure  <a href="index.html" class="a--secondary">acquista ora</a>
+                      </div>
+                      <div class="card__section">
+                          <div class="divider"></div>
+                          <h4>
+                              Punti salienti del piano
+                          </h4>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum enim nemo ipsam qui, voluptatibus et error ad iure tempora adipisci nulla quae eos ducimus corporis autem commodi accusantium at incidunt? lore
+                          </p>
+                      </div>
                     </div>
                 </div>
-<!-- CARD__FOOTER -->
-                <div id="card__footer" class="card--style card">
-                    <div class="card--header">
-                        <i class="fa-solid fa-building"></i>
-                        <p>
-                            Team
-                        </p>
+                <!-- card -->
+                <div class="card">
+                    <div class="card__header">
+                      <span>Singolo</span>
                     </div>
-                    <div class="card--body flex__container">
-                        <div class="card--section flxCol sect1">
-                            <h3>
-                                Enterprise
-                            </h3>
-                            <p class="details">
-                                Contatta l'ufficio vendite per i prezzi
-                            </p>
-                            <div class="card--section">
-                                Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala
-                            </div>
-                        </div>
-                        <div class="card--section sect2 flxCol">
-                            <a href="index.html">
-                                <button>
-                                    Contatta l'ufficio vendite
-                                </button>
-                            </a>
-                        </div>
+                    <div class="card__body">
+                      <div class="card__section">
+                        <h4>Professional</h4>
+                        <span class="bolder"> $12 </span>
+                        <span> /mese </span>
+                      </div>
+                      <div class="card__section">
+                          <span> 1 Utente </span>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, dignissimos iste quae rerum, dicta provident corporis libero perspiciatis, reiciendis fugiat ullam? Enim odio amet fugiat dolore sit excepturi veniam.
+                          </p>
+                          <a href="index.html">
+                              <button class="btn--primary">
+                                  Prova gratis 30 giorni
+                              </button>
+                          </a>
+                          <span>Oppure  <a href="index.html" class="a--secondary">acquista ora</a>
+                      </div>
+                      <div class="card__section">
+                          <div class="divider"></div>
+                          <h4>
+                              Punti salienti del piano
+                          </h4>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum enim nemo ipsam qui, voluptatibus et error ad iure tempora adipisci nulla quae eos ducimus corporis autem commodi accusantium at incidunt?
+                          </p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum enim nemo ipsam qui, voluptatibus et error ad iure tempora adipisci nulla quae eos ducimus corporis autem commodi accusantium at incidunt?
+                          </p>
+                      </div>
                     </div>
                 </div>
-        </section>
-<!-- SECTION__CONTACT -->
-        <section id="contact">
-            <div class="content__wraper">
-                <div class="flex__container">
-                    <div class="flex__item--1">
-                        <img src="./img/partner.png" alt="">
+                <!-- card -->
+                <div class="card">
+                    <div class="card__header">
+                      <span>Singolo</span>
                     </div>
-                    <div class="flex__item--2">
-                        <h3>
-                            Entra in contatto con un partner Dropbox
-                        </h3>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content It is a long established.
-                        </p>
+                    <div class="card__body">
+                      <div class="card__section">
+                        <h4>Professional</h4>
+                        <span class="bolder"> $12 </span>
+                        <span> /mese </span>
+                      </div>
+                      <div class="card__section">
+                          <span> 1 Utente </span>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, dignissimos iste quae rerum, dicta provident corporis libero perspiciatis, reiciendis fugiat ullam? Enim odio amet fugiat dolore sit excepturi veniam.
+                          </p>
+                          <a href="index.html">
+                              <button class="btn--primary">
+                                  Prova gratis 30 giorni
+                              </button>
+                          </a>
+                          <span>Oppure  <a href="index.html" class="a--secondary">acquista ora</a>
+                      </div>
+                      <div class="card__section">
+                          <div class="divider"></div>
+                          <h4>
+                              Punti salienti del piano
+                          </h4>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum enim nemo ipsam qui, voluptatibus et error ad iure tempora adipisci nulla quae eos ducimus corporis autem commodi accusantium at incidunt?
+                          </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flxRow card width--100 card__footer">
+                <div class="card__header">
+                    Enterprise
+                </div>
+                <div class="card__body flex__container">
+                    <div class="flex__item--1 card__section width--60">
+                        <h4>Enterprise</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere autem unde accusantium minima!</p>
+                    </div>
+                    <div class="flex__item--2 card__section flxGrow--2">
                         <a href="index.html">
-                            <button class="btn--var2">
-                                Trova un partner
+                            <button class="btn--primary">
+                                Contatta l'ufficio vendite
                             </button>
                         </a>
                     </div>
                 </div>
             </div>
-        </section>
-<!-- operations -->
-        <section id="operations">
-            <div class="content__wraper">
-                <h2>
-                    Esegui più operazioni con Dropbox bussisness
-                </h2>
-                <div class="flex__container">
-                    <div class="card">
-                        <img src="./img/business-feature-switching-tools.png">
-                        <h3>Passa di meno da uno srumento all'altro</h3>
-                        <p>Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/business-feature-send-files-it.png">
-                        <h3>
-                            Passa di meno da uno srumento all'altro
-                        </h3>
-                        <p>
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src="./img/business-feature-coordinate-it.png">
-                        <h3>
-                            Passa di meno da uno srumento all'altro
-                        </h3>
-                        <p>
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src="./img/business-feature-integrations-it.png">
-                        <h3>
-                            Passa di meno da uno srumento all'altro
-                        </h3>
-                        <p>
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src="./img/business-feature-switching-tools.png">
-                        <h3>
-                            Passa di meno da uno srumento all'altro
-                        </h3>
-                        <p>
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src="./img/business-feature-security.png">
-                        <h3>
-                            Passa di meno da uno srumento all'altro
-                        </h3>
-                        <p>
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti ella gestione su qualsiasi scala
-                        </p>
-                    </div>
+        </div>
+      </section>
+      <!-- partner -->
+      <section id="partner">
+        <div class="content__wrapper">
+            <div class="flex__container flxRow">
+                <div class="flex__item--1">
+                    <img src="./img/partner.png" alt="Dropbox partner" class="width--100">
                 </div>
-            </div>
-        </section>
-<!-- team -->
-        <section id="team">
-            <div class="content__wraper">
-                <h2>
-                    Più di 500.000 team utilizzano <br> Dropbox Bussisness
-                </h2>
-                <a href="index.html" class="">
-                    Scopri di più sui nostri clienti
-                </a>
-            </div>
-        </section>
-<!-- reference -->
-        <section id="reference">
-            <div class="content__wraper">
-                <div class="container">
-                    <div class=" grid__item grid__item--1">
-                        <img src="./img/designit.svg">
-                    </div>
-                    <div class=" grid__item grid__item--2">
-                        <img src="./img/arizona_state_university.svg">
-                    </div>
-                    <div class=" grid__item grid__item--4">
-                        <img src="./img/university_of_florida.svg">
-                    </div>
-                    <div class=" grid__item grid__item--5">
-                        <img src="./img/topps.svg">
-                    </div>
-                    <div class="area1">
-                        <div id="logo__container">
-                            <img src="./img/designit.svg">
-                        </div>
-                        <div class="divider"></div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content
-                            It is a long established fact that a reader 
-                            
-                           
-                        </p>
-                        <p>
-                            It is a long established fact
-                        </p>
-                    </div>
-                    <div class=" grid__item grid__item--6">
-                        <img src="./img/world_bicycle_relief.svg">
-                    </div>
-                    <div class=" grid__item grid__item--7">
-                        <img src="./img/hearst_corp.svg">
-                    </div>
-                    <div class=" grid__item grid__item--8">
-                        <img src="./img/lonely_planet.svg">
-                    </div>
-                    <div class=" grid__item grid__item--9">
-                        <img src="img/clear_channel.svg">
-                    </div>
-                    <div class="grid__area"></div>
-              </div>
-            </div>
-<!-- porta Dropbox  -->
-            <section id="bring">
-                <div class="content__wraper">
-                    <div class="flex__container">
-                        <div class="flex__item--1">
-                            <h2>
-                                Porta Dropbox Bussisness <br>
-                                nella tua azienda.
-                            </h2>
-                        </div>
-                        <div class="flex__item--2">
-                            <a href="index.html">
-                                <button class="btn--var3">
-                                    Inizia la tua prova gratuita
-                                </button>
-                            </a>
-                        </div>
-                    </div>
+                <div class="card__section flxRow">
+                    <h4>
+                        Entra in contatto con un Dropbox Partner
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi laudantium sapiente sint nesciunt alias cumque eveniet error deserunt.
+                    </p>
+                    <a href="index.html">
+                        <button class="btn--white">
+                            Trova un Partner
+                        </button>
+                    </a>
                 </div>
-            </section>
-        </section>
-<!-- domande frequenti -->
-        <section id="questions">
-            <div class="content__wraper">
-                <h2>Domande frequenti</h2>
-                <!-- blocco_1 -->
-                <div class="dropdown">
-                    <div class="flex--item">
-                        <p class="bolder smaller">
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti
-                        </p>
-                        <i class="fa-sharp fa-solid fa-caret-down"></i>
-                    </div>
-                        <p class="hide">
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti 
-                            supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti
-                        </p>
-                </div>
-                <!-- blocco__2 -->
-                <div class="dropdown">
-                    <div class="flex--item">
-                        <p class="bolder smaller">
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti
-                        </p>
-                        <i class="fa-sharp fa-solid fa-caret-down"></i>
-                    </div>
-                        <p class="hide">
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti 
-                            supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti
-                        </p>
-                </div>
-                <!-- blocco__3 -->
-                <div class="dropdown">
-                    <div class="flex--item">
-                        <p class="bolder smaller">
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti
-                        </p>
-                        <i class="fa-sharp fa-solid fa-caret-down"></i>
-                    </div>
-                        <p class="hide">
-                            Soluzioni personalizzate e supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti 
-                            supporto misure per aiutare i professionisti Soluzioni personalizzate e supporto misure per aiutare i professionisti
-                        </p>
-                </div>
-        </section>
-    </main>
-    <footer>
-        <div class="content__wraper">
-            <div class="flex__container">
-                <!-- blocco__1 -->
-                <div class="flex__item">
-                    <h3>Dropbox</h3>
-                    <nav>
-                        <a href="index.html">
-                            Applicazioni desktop
-                        </a>
-                        <a href="index.html">
-                            Perchè Dropbox
-                        </a>
-                        <a href="index.html">
-                            Piani
-                        </a>
-                        <a href="index.html">
-                            Sicurezza
-                        </a>
-                        <a href="index.html">
-                            Funzioni
-                        </a>
-                    </nav>
-                </div>
-                <!-- blocco__1 -->
-                <div class="flex__item">
-                    <h3>Dropbox</h3>
-                    <nav>
-                        <a href="index.html">
-                            Applicazioni desktop
-                        </a>
-                        <a href="index.html">
-                            Perchè Dropbox
-                        </a>
-                        <a href="index.html">
-                            Piani
-                        </a>
-                        <a href="index.html">
-                            Sicurezza
-                        </a>
-                        <a href="index.html">
-                            Funzioni
-                        </a>
-                    </nav>
-                </div>
-                <!-- blocco__1 -->
-                <div class="flex__item">
-                    <h3>Dropbox</h3>
-                    <nav>
-                        <a href="index.html">
-                            Applicazioni desktop
-                        </a>
-                        <a href="index.html">
-                            Perchè Dropbox
-                        </a>
-                        <a href="index.html">
-                            Piani
-                        </a>
-                        <a href="index.html">
-                            Sicurezza
-                        </a>
-                        <a href="index.html">
-                            Funzioni
-                        </a>
-                    </nav>
-                </div>
-                <!-- blocco__1 -->
-                <div class="flex__item">
-                    <h3>Dropbox</h3>
-                    <nav>
-                        <a href="index.html">
-                            Applicazioni desktop
-                        </a>
-                        <a href="index.html">
-                            Perchè Dropbox
-                        </a>
-                        <a href="index.html">
-                            Piani
-                        </a>
-                        <a href="index.html">
-                            Sicurezza
-                        </a>
-                        <a href="index.html">
-                            Funzioni
-                        </a>
-                    </nav>
-                </div>
-                <!-- blocco__1 -->
-                <div class="flex__item">
-                    <h3>Dropbox</h3>
-                    <nav>
-                        <a href="index.html">
-                            Applicazioni desktop
-                        </a>
-                        <a href="index.html">
-                            Perchè Dropbox
-                        </a>
-                        <a href="index.html">
-                            Piani
-                        </a>
-                        <a href="index.html">
-                            Sicurezza
-                        </a>
-                        <a href="index.html">
-                            Funzioni
-                        </a>
-                    </nav>
-                </div>
-            </div>
-            <div class="divider"></div>  
-            <div class="language">
-                <i class="fa-solid fa-earth-americas"></i>
-                <a href="index.html">
-                    Italiano
-                </a>
             </div>
         </div>
-    </footer>
-</body>
+      </section>
+      <section class="operations">
+        <div class="content__wrapper">
+            <h2 class="txtCenter">
+                Esegui più operazioni don Dropbox bussisness
+            </h2>
+            <div class="flex__container flxRow flxWrap justify--spaceBetw">
+                <div class="card no--border flxCol gap--1 width--30">
+                    <img src="./img/business-feature-switching-tools.png">
+                    <h4>
+                        Passa di meno fra uno strumento e l'altro
+                    </h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam soluta facere modi accusamus dolorum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit numquam quo a dolore..</p>
+                </div>
+                <div class="card no--border flxCol gap--1 width--30">
+                    <img src="./img/business-feature-send-files-it.png">
+                    <h4>
+                        Passa di meno fra uno strumento e l'altro
+                    </h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam soluta facere modi accusamus dolorum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit numquam quo a dolore..</p>
+                </div>
+                <div class="card no--border flxCol gap--1 width--30">
+                    <img src="./img/business-feature-coordinate-it.png">
+                    <h4>
+                        Passa di meno fra uno strumento e l'altro
+                    </h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quibusdam soluta facere modi accusamus dolorum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit numquam quo a dolore..</p>
+                </div>
+            </div>
+            
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
